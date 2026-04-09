@@ -1,4 +1,6 @@
 # 1. RabbitMQ
+docker stop rabbitmq-par2ARSW
+docker stop rabbitmq-par2ARSW  
 docker run -d --name rabbitmq-par2ARSW -p 5672:5672 -p 15672:15672 rabbitmq:3-management
 
 # 2. Servidor
